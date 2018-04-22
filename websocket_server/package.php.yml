@@ -1,0 +1,18 @@
+name: websocket_server
+version: 1.0.0
+deps: {
+  jphp-core: '*',
+  jphp-zend-ext: '*',
+  jphp-httpserver-ext: '*'
+}
+plugins: [
+  AppPlugin
+  ]
+app: {
+  bootstrap: bootstrap.php,
+  encoding: UTF-8,
+  metrics: false,
+  trace: false
+}
+sources: [
+  src]
